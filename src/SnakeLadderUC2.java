@@ -6,9 +6,10 @@ public class SnakeLadderUC2 {
         obj.DieRoll();
     }
 
+    public int rollDie;
+
     public void DieRoll() {
         Random random = new Random();
-
         int rollDie = random.nextInt(6);
         System.out.println("Player got : " + rollDie);
     }
