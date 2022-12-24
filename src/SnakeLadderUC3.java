@@ -3,9 +3,9 @@ import java.util.Random;
 public class SnakeLadderUC3 {
 
     //Constants
-    private static final int IS_NO_PLAY = 0;
-    private static final int IS_LADDER = 1;
-    private static final int IS_SNAKE = 2;
+     static final int IS_NO_PLAY = 0;
+     static final int IS_LADDER = 1;
+     static final int IS_SNAKE = 2;
 
     //Declaring Variables for Players Position
     int playerPosition = 0;
