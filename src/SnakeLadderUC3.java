@@ -15,19 +15,19 @@ public class SnakeLadderUC3 {
     Random randomNo = new Random();
 
     //Method to Show Player Current Position
-    private void showPosition() {
+     void showPosition() {
         //Displaying Player Position
         System.out.println("Player Starting Position : "+ playerPosition);
     }
 
     //Method to Roll the Die and Get No between 1 to 6
-    private int rollDie() {
+     int rollDie() {
         int dieNo = randomNo.nextInt(6)+1;
         return dieNo;
     }
 
     //Method to Check for Option
-    private void optionPlay(int dieNo) {
+     void optionPlay(int dieNo) {
 
         int optionNo = randomNo.nextInt(3)+1;
         System.out.println("Option No : "+ optionNo);
